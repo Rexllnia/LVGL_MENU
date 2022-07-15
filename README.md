@@ -26,18 +26,18 @@ static void disp_init(void)
 
 4. Sign up the button .
 注册按钮
-static bool button_is_pressed(uint8_t id)
-{
+	static bool button_is_pressed(uint8_t id)
+	{
 
-    /*Your code comes here*/
-		if(PAin(4)==0&&id==0)
-		{
-			
-			
-			return true;
-		}
-    return false;
-}
+	    /*Your code comes here*/
+			if(PAin(4)==0&&id==0)
+			{
+
+
+				return true;
+			}
+	    return false;
+	}
 
 5.Here to set Tick . 
 设置心跳
